@@ -34,6 +34,14 @@
       
     - [WebAssembly 101](/WebAssembly/WebAssembly%20101.md)
     - [概念与使用](/WebAssembly/概念与使用.md)
+  - [examples](/examples/README.md)
+    - packages
+      - es5 todomvc
+        - [readme](/examples/packages/es5-todomvc/readme.md)
+      - [es6 todomvc](/examples/packages/es6-todomvc/README.md)
+        
+      - jquery todomvc
+        - [readme](/examples/packages/jquery-todomvc/readme.md)
   - [前端工程化](/前端工程化/README.md)
     - CSS 处理器
       - [Less](/前端工程化/CSS%20处理器/Less.md)
@@ -95,16 +103,6 @@
       - [多屏幕尺寸测试](/前端工程化/调试/多屏幕尺寸测试.md)
       - [样式与布局调试](/前端工程化/调试/样式与布局调试.md)
   - 应用架构
-    - [GUI 应用程序架构](/应用架构/GUI%20应用程序架构/README.md)
-      - [单向数据流](/应用架构/GUI%20应用程序架构/单向数据流/README.md)
-        - [Clean Architecture](/应用架构/GUI%20应用程序架构/单向数据流/Clean%20Architecture.md)
-        - [Flux](/应用架构/GUI%20应用程序架构/单向数据流/Flux.md)
-      - [双向数据流](/应用架构/GUI%20应用程序架构/双向数据流/README.md)
-        - [MVC](/应用架构/GUI%20应用程序架构/双向数据流/MVC.md)
-        - [MVP](/应用架构/GUI%20应用程序架构/双向数据流/MVP.md)
-        - [MVVM](/应用架构/GUI%20应用程序架构/双向数据流/MVVM.md)
-      - [组件化](/应用架构/GUI%20应用程序架构/组件化/README.md)
-        - [Atomic Design](/应用架构/GUI%20应用程序架构/组件化/Atomic%20Design.md)
     - [MVVM](/应用架构/MVVM/README.md)
       - [VirtualDOM](/应用架构/MVVM/VirtualDOM.md)
       - [现代框架的 MVVM 实现](/应用架构/MVVM/现代框架的%20MVVM%20实现.md)
@@ -236,12 +234,15 @@
     - [网络请求](/开发基础/网络请求/README.md)
       - 数据加载
         - [SWR](/开发基础/网络请求/数据加载/SWR.md)
+      - 文件处理
+        - [Blob](/开发基础/网络请求/文件处理/Blob.md)
+        - [文件上传](/开发基础/网络请求/文件处理/文件上传.md)
+        - [文件下载](/开发基础/网络请求/文件处理/文件下载.md)
+        - [文件读写](/开发基础/网络请求/文件处理/文件读写.md)
       - 请求库
         - [Axios](/开发基础/网络请求/请求库/Axios.md)
-        - [Blob](/开发基础/网络请求/请求库/Blob.md)
         - [Fetch](/开发基础/网络请求/请求库/Fetch.md)
         - [XMLHttpRequest](/开发基础/网络请求/请求库/XMLHttpRequest.md)
-        - [大文件传输](/开发基础/网络请求/请求库/大文件传输.md)
       - 跨域通信
         - [CORS](/开发基础/网络请求/跨域通信/CORS.md)
         - [跨域请求](/开发基础/网络请求/跨域通信/跨域请求.md)
